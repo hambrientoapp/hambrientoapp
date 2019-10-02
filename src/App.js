@@ -1,30 +1,36 @@
 import React from 'react'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  NavLink
+  Route
 } from 'react-router-dom'
+
+import {
+  Navbar, Nav
+} from 'react-bootstrap'
 
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
-import './App.css'
+import Menu from './components/Menu'
+import Footer from './components/Footer'
+
 
 function App() {
   return (
     <Router>
-      <nav>
-        <NavLink to="/" exact>Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-      </nav>
+      <Menu />
       <Switch>
         <Route path="/" exact component={ Home } />
         <Route path="/about" component={ About } />
         <Route path="/contact" component={ Contact} />
       </Switch>
+
+      <Footer />
     </Router> 
   )
 }
