@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Jumbotron, Container } from 'react-bootstrap'
+import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
 
 function Contribution() {
     return (
@@ -10,10 +10,21 @@ function Contribution() {
                     <Container>                
                         <h1>Contribution</h1>
                         <p>
-                            Sample text
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sit impedit itaque! Laboriosam, nisi error aspernatur quae eius magnam exercitationem! Doloremque qui aliquam recusandae libero dolorum reprehenderit quae similique quam!
                         </p>
                     </Container>
                 </Jumbotron>
+
+                <Container>
+                    <Row>
+                        <Col>
+                            <h2>Report</h2>
+                        </Col>
+                        <Col>
+                            <h2>Evaluate</h2>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         </main>
     )

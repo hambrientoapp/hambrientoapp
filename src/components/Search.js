@@ -8,7 +8,7 @@ export default function Search() {
             <Jumbotron className="text-center">
                 <Container>
                     <h1>HAMBRIENTO...</h1>
-                    <p>pensando en ti desarrollamos esta app</p>
+                    <p>thinking of you we develop this app</p>
                     <Form className="mt-4">
                         <Form.Control size="lg" type="text" placeholder="burger, pizza, sushi ..." />
                     </Form>

@@ -4,7 +4,7 @@ import { Jumbotron, Container, Row, Col, Card } from 'react-bootstrap'
 
 function About() {
     return (
-        <main>
+        <main id="about">
             <Jumbotron fluid>
                 <Container>
                     <h1>About</h1>
