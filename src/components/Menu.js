@@ -5,7 +5,7 @@ import { Navbar, Nav } from 'react-bootstrap'
 export default function Menu() {
     return (
         <Navbar>
-        <Navbar.Brand href="#">🍔 HAMBIENTOapp</Navbar.Brand>
+        <Navbar.Brand href="#"><span role='img' aria-label="burger emoji">🍔 HAMBIENTOapp</span></Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
