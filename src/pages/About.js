@@ -59,6 +59,28 @@ function About() {
                             </Card.Body>
                         </Card>
                     </Col>
+
+                    <Col md={3}>
+                        <Card className="mb-2">
+                            <Card.Img variant="top" src="https://via.placeholder.com/100" />
+                             <Card.Body className="text-center">
+                                <Card.Title>Wendell Eloi</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted">@wendelleloi</Card.Subtitle>
+                                <Card.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates molestias eaque, architecto saepe optio reprehenderit soluta adipisci suscipit impedit laboriosam dolorum accusantium ea iste recusandae. Odio hic fugit facere pariatur?</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
+                    <Col md={3}>
+                        <Card className="mb-2">
+                            <Card.Img variant="top" src="https://via.placeholder.com/100" />
+                             <Card.Body className="text-center">
+                                <Card.Title>Pedro Pablo Pastene</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted">@PPastene</Card.Subtitle>
+                                <Card.Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates molestias eaque, architecto saepe optio reprehenderit soluta adipisci suscipit impedit laboriosam dolorum accusantium ea iste recusandae. Odio hic fugit facere pariatur?</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 </Row>
             </Container>
         </main>
