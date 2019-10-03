@@ -59,7 +59,8 @@ function About() {
                             </Card.Body>
                         </Card>
                     </Col>
-
+                </Row>
+                <Row className="justify-content-sm-center">
                     <Col md={3}>
                         <Card className="mb-2">
                             <Card.Img variant="top" src="https://via.placeholder.com/100" />
@@ -70,27 +71,28 @@ function About() {
                             </Card.Body>
                         </Card>
                     </Col>
-                </Row>
-                <Row className="justify-content-sm-center">
-                  <Col md={3}>
-                    <Card className="mb-2">
-                      <Card.Img variant="top" src="https://via.placeholder.com/100" />
-                      <Card.Body className="text-center">
-                        <Card.Title>Enrique Pino</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">@pinoliso</Card.Subtitle>
-                        <Card.Text>El mas sueltohxx</Card.Text>
-                      </Card.Body>
-                    </Card>
 
-                    <Card className="mb-2">
-                        <Card.Img variant="top" src="https://via.placeholder.com/100" />
-                        <Card.Body className="text-center">
-                            <Card.Title>Pedro Pablo Pastene</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">@ppastene</Card.Subtitle>
-                            <Card.Text>Schlitz sartorial pickled gochujang fam etsy. Woke poke twee vegan chillwave taiyaki lumbersexual. Bespoke trust fund gastropub, quinoa neutra thundercats cornhole twee waistcoat narwhal health goth godard enamel pin. Aesthetic hammock listicle portland tumeric fingerstache.</Card.Text>
-                        </Card.Body>
-                    </Card>
-                  </Col>
+                    <Col md={3}>
+                        <Card className="mb-2">
+                            <Card.Img variant="top" src="https://via.placeholder.com/100" />
+                            <Card.Body className="text-center">
+                                <Card.Title>Enrique Pino</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted">@pinoliso</Card.Subtitle>
+                                <Card.Text>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia corrupti excepturi consequuntur, tempore modi sapiente, hic ipsum dolores accusamus minima facere, fugit ratione ea officia labore atque commodi veritatis dolor.</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
+                    <Col md={3}>
+                        <Card className="mb-2">
+                            <Card.Img variant="top" src="https://via.placeholder.com/100" />
+                            <Card.Body className="text-center">
+                                <Card.Title>Pedro Pablo Pastene</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted">@ppastene</Card.Subtitle>
+                                <Card.Text>Schlitz sartorial pickled gochujang fam etsy. Woke poke twee vegan chillwave taiyaki lumbersexual. Bespoke trust fund gastropub, quinoa neutra thundercats cornhole twee waistcoat narwhal health goth godard enamel pin. Aesthetic hammock listicle portland tumeric fingerstache.</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 </Row>
             </Container>
         </main>
