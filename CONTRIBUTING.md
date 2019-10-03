@@ -2,4 +2,4 @@
 
 * Good disposition
 * Enjoy a good meal
-* Pick a issue
+* Pick a issue that has not been assigned
