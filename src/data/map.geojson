@@ -16,6 +16,70 @@
           -33.4465536
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Great India Place",
+        "category": "burger,mexican,pizza",
+        "address": "The Great India Place, Sector-18, Noida, U.P, India",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.32604742050171,
+          28.567665980699132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DLF Mall of India",
+        "category": "burger,mexican,pizza",
+        "address": "DLF Mall of India, Sector-18, Noida, U.P, India",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.32129454612732,
+          28.56729849740082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Logix City Centre Mall",
+        "category": "burger,mexican,pizza",
+        "address": "",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.35346496105194,
+          28.574233350399723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Esplanade",
+        "category": "burger,pizza",
+        "address": "Esplanade, Kolkata, West Bengal, India",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.35217952728271,
+          22.564462337788044
+        ]
+      }
     }
   ]
 }
