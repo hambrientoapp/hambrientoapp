@@ -1,12 +1,10 @@
 import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import "leaflet/dist/leaflet.css";
+import "./App.css";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
-// import {
-//   Navbar, Nav
-// } from 'react-bootstrap'
 
 import Home from "./pages/Home";
 import About from "./pages/About";
