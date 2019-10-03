@@ -15,6 +15,7 @@ import {
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Contribution from './pages/Contribution'
 
 import Menu from './components/Menu'
 import Footer from './components/Footer'
@@ -28,6 +29,7 @@ function App() {
         <Route path="/" exact component={ Home } />
         <Route path="/about" component={ About } />
         <Route path="/contact" component={ Contact} />
+        <Route path="/contribution" component={ Contribution } />
       </Switch>
 
       <Footer />
