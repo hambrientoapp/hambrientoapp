@@ -71,6 +71,18 @@ function About() {
                         </Card>
                     </Col>
                 </Row>
+                <Row className="justify-content-sm-center">
+                  <Col md={3}>
+                    <Card className="mb-2">
+                      <Card.Img variant="top" src="https://steamuserimages-a.akamaihd.net/ugc/532875698452069032/F1942BA577B8F26C219AFCB5F224407C631AFDE4/" />
+                      <Card.Body className="text-center">
+                        <Card.Title>Enrique Pino</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">@pinoliso</Card.Subtitle>
+                        <Card.Text>El mas sueltohxx</Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                </Row>
             </Container>
         </main>
     )
