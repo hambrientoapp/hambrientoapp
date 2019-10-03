@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Apetit's Express",
+        "category": "burger,mexican",
+        "address": "",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6511887,
+          -33.4465536
+        ]
+      }
+    }
+  ]
+}
