@@ -8,20 +8,20 @@ export default function Categories() {
             <Container className="mt-4 mb-4">
                 <Row className="justify-content-md-center text-center">
                     <Col>
-                        <h2>🍔</h2>
-                        <a href="#">Burger</a>
+                        <h2><span role='img' aria-label='burger emoji' classname='menu-item'>🍔</span></h2>
+                        <a href="#Burger">Burger</a>
                     </Col>
                     <Col>
-                        <h2>🍕</h2>
-                        <a href="#">Pizza</a>
+                        <h2><span role='img' aria-label='pizza emoji' classname='menu-item'>🍕</span></h2>
+                        <a href="#Pizza">Pizza</a>
                     </Col>
                     <Col>
-                        <h2>🍣</h2>
-                        <a href="#">Sushi</a>
+                        <h2><span role='img'aria-label='sushi emoji' classname='menu-item'>🍣</span></h2>
+                        <a href="#Sushi">Sushi</a>
                     </Col>
                     <Col>
-                        <h2>🌮</h2>
-                        <a href="#">Mexican</a>
+                        <h2><span role='img' aria-label='taco emoji' classname='menu-item'>🌮</span></h2>
+                        <a href="#Mexican">Mexican</a>
                     </Col>
                 </Row>
             </Container>
