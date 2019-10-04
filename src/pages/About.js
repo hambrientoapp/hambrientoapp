@@ -93,6 +93,17 @@ function About() {
                             </Card.Body>
                         </Card>
                     </Col>
+
+                    <Col md={3}>
+                        <Card className="mb-2">
+                            <Card.Img variant="top" src="https://via.placeholder.com/100" />
+                            <Card.Body className="text-center">
+                                <Card.Title>Jorge Gutierrez</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted">@gutjoa</Card.Subtitle>
+                                <Card.Text>Schlitz sartorial pickled gochujang fam etsy. Woke poke twee vegan chillwave taiyaki lumbersexual. Bespoke trust fund gastropub, quinoa neutra thundercats cornhole twee waistcoat narwhal health goth godard enamel pin. Aesthetic hammock listicle portland tumeric fingerstache.</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                 </Row>
             </Container>
         </main>
