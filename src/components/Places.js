@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import L from 'leaflet'
-import { Map as LeafletMap, TileLayer, GeoJSON } from 'react-leaflet'
-
+import { Map as LeafletMap, TileLayer, GeoJSON, Marker, Popup } from 'react-leaflet'
+import person from '../person.png'
 import places from '../data/places.js'
 
 const styles = {
@@ -33,6 +33,14 @@ export default function Places() {
         lng: -33.4465536,
         zoom: 16
     })
+    
+    let icon = L.icon({
+        iconRetinaUrl: person,
+        iconUrl: person,
+        
+   })
+ 
+ 
 
     useEffect(() => {
         if ("geolocation" in navigator) {
@@ -57,6 +65,14 @@ export default function Places() {
                     attribution='🍔 HAMBRIENTOapp &nbsp;'
                     url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png"
                 />
+                <Marker
+                   position={[location.lat, location.lng]}
+                   icon={icon} 
+                >
+                    <Popup>
+                       You are here!
+                    </Popup>
+                </Marker>
                 <GeoJSON
                     data={places}
                     pointToLayer={pointToLayer}
