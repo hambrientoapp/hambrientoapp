@@ -80,6 +80,22 @@
           22.564462337788044
         ]
       }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "name": "Dick's Drive-In",
+        "category": "burger",
+        "address": "Seattle, WA, United States of America",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.619400,
+          -122.321270
+        ]
+      }
     }
   ]
 }
