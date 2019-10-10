@@ -81,7 +81,7 @@
         ]
       }
     },
-        {
+    {
       "type": "Feature",
       "properties": {
         "name": "Dick's Drive-In",
@@ -94,6 +94,22 @@
         "coordinates": [
           47.619400,
           -122.321270
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carls JR",
+        "category": "burger",
+        "address": "Providencia 2124, Providencia, Región Metropolitana",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -33.423086,
+          -70.610436
         ]
       }
     }
