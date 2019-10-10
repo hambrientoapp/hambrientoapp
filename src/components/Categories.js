@@ -23,6 +23,10 @@ export default function Categories() {
                         <h2><span role='img' aria-label='taco emoji' className='menu-item'>🌮</span></h2>
                         <a href="#Mexican">Mexican</a>
                     </Col>
+                    <Col>
+                        <h2><span role='img' aria-label='Flag of Venezuela emoji' className='menu-item'>🇻🇪</span></h2>
+                        <a href="#Venezuelan">Venezuelan</a>
+                    </Col>
                 </Row>
             </Container>
         </div>
