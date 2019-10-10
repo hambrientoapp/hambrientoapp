@@ -112,6 +112,22 @@ const places = {
           -70.646150
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frisbees",
+        "category": "burger,pizza",
+        "address": "Frisbees, Mumbai, Maharashtra, India",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.824486,
+          19.056359
+        ]
+      }
     }
   ]
 }
