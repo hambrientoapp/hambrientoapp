@@ -13,7 +13,7 @@ You can collaborate by reporting a place that meet all three Bs or also evaluati
 To report you must indicate on the form the following:
 
 * Name of the place
-* Category (🍔Burger, 🍕Pizza, 🍣Sushi, 🌮Mexican)
+* Category (🍔Burger, 🍕Pizza, 🍣Sushi, 🌮Mexican, 🇻🇪Venezuelan)
 * Direction
 * Coordinates (Latitude and Longitude)
 
