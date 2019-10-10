@@ -84,6 +84,22 @@ const places = {
     {
       "type": "Feature",
       "properties": {
+        "name": "Fritomania",
+        "category": "Venezuelan",
+        "address": "Av. Sta. Rosa 83, Santiago, Región Metropolitana",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -33.423086,
+          -70.610436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Carls JR",
         "category": "burger",
         "address": "Nueva Providencia 2124, Providencia, Región Metropolitana",
@@ -92,8 +108,8 @@ const places = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.423086,
-          -70.610436
+          -33.444859,
+          -70.646150
         ]
       }
     }

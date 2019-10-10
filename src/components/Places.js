@@ -63,7 +63,7 @@ export default function Places() {
             >
                 <TileLayer
                     attribution='🍔 HAMBRIENTOapp &nbsp;'
-                    url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png"
+                    url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
                 />
                 <Marker
                    position={[location.lat, location.lng]}

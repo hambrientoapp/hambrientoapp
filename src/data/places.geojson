@@ -99,17 +99,29 @@
     },
     {
       "type": "Feature",
+<<<<<<< HEAD
       "properties": {
         "name": "Carls JR",
         "category": "burger",
         "address": "Providencia 2124, Providencia, Región Metropolitana",
+=======
+      "properties":{
+        "name": "Fritomania",
+        "category": "Venezuelan",
+        "address" : "Av. Sta. Rosa 83, Santiago, Región Metropolitana",
+>>>>>>> f4ff6df2d77108dc29a07bb4de1daa81bc3903e2
         "evaluate": "good,pretty,cheap"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
+<<<<<<< HEAD
           -33.423086,
           -70.610436
+=======
+          -33.444859, 
+          -70.646150
+>>>>>>> f4ff6df2d77108dc29a07bb4de1daa81bc3903e2
         ]
       }
     }
