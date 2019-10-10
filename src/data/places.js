@@ -92,6 +92,22 @@ const places = {
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -33.423086,
+          -70.610436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carls JR",
+        "category": "burger",
+        "address": "Nueva Providencia 2124, Providencia, Región Metropolitana",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -33.444859,
           -70.646150
         ]
