@@ -103,7 +103,7 @@
         "name": "Fritomania",
         "category": "Venezuelan",
         "address" : "Av. Sta. Rosa 83, Santiago, Región Metropolitana",
-        "evaluate":good,pretty,cheap"
+        "evaluate": "good,pretty,cheap"
       },
       "geometry": {
         "type": "Point",
