@@ -48,6 +48,12 @@ export default function Categories() {
                             Peruvian <Badge variant="primary">11</Badge>
                         </a>
                     </Col>
+                    <Col>
+                        <h2><span role='img' aria-label='Flag of Peru emoji' className='menu-item'>🇵🇰</span></h2>
+                        <a href="#Pakistani">
+                            Pakistani <Badge variant="primary">12</Badge>
+                        </a>
+                    </Col>
                 </Row>
             </Container>
         </div>
