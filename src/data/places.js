@@ -1,6 +1,23 @@
 const places = {
   "type": "FeatureCollection",
   "features": [
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tau's Restaurant",
+        "category": "burger,mexican,pakistani",
+        "address": "c-18 Saba Ave, Bukhari Commercial Area Phase 6 Defence Housing Authority, Karachi, Karachi City, Sindh 75500, Pakistan",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7863233,
+          67.0575187
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
