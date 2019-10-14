@@ -52,6 +52,7 @@ export default function Categories() {
                         <h2><span role="img" aria-label="Flag of Pakistani emoji" className="menu-item">🇵🇰</span></h2>
                         <a href="#Pakistani">
                             Pakistani <Badge variant="primary">0</Badge>
+
                         </a>
                     </Col>
                 </Row>

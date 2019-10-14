@@ -28,7 +28,6 @@ export default function Categories() {
         () => setAddP(currentCount => currentCount + 1),
         100
     );
-
     return (
         <div id="categories">
             <div className="justify-content-md-center text-center pt-2 card">

@@ -1,7 +1,6 @@
 const places = {
   "type": "FeatureCollection",
   "features": [
-
     {
       "type": "Feature",
       "properties": {
