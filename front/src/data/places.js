@@ -1,7 +1,7 @@
 const places = {
   "type": "FeatureCollection",
   "features": [
-    {
+     {
       "type": "Feature",
       "properties": {
         "name": "Tau's Restaurant",
@@ -100,16 +100,32 @@ const places = {
     {
       "type": "Feature",
       "properties": {
-        "name": "Fritomania",
-        "category": "Venezuelan",
-        "address": "Av. Sta. Rosa 83, Santiago, Región Metropolitana",
+        "name": "Dick's Drive-In",
+        "category": "burger",
+        "address": "Seattle, WA, United States of America",
         "evaluate": "good,pretty,cheap"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.423086,
-          -70.610436
+          -122.321270,
+          47.619400
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties":{
+        "name": "Fritomania",
+        "category": "Venezuelan",
+        "address" : "Av. Sta. Rosa 83, Santiago, Región Metropolitana",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -33.444859, 
+          -70.646150
         ]
       }
     },
@@ -118,14 +134,14 @@ const places = {
       "properties": {
         "name": "Carls JR",
         "category": "burger",
-        "address": "Nueva Providencia 2124, Providencia, Región Metropolitana",
+        "address": "Providencia 2124, Providencia, Región Metropolitana",
         "evaluate": "good,pretty,cheap"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.444859,
-          -70.646150
+          -70.610436,
+          -33.423086
         ]
       }
     },
@@ -144,7 +160,56 @@ const places = {
           19.056359
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Azafran",
+        "category": "chilean",
+        "address": "Marchant Pereira 339, Providencia, Región Metropolitana",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6129077,
+          -33.4280058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pizza Nápoli Providencia",
+        "category": "pizza",
+        "address": "Av. Nueva Providencia 1935, Providencia, Región Metropolitana",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6152298,
+          -33.4254644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Goemon Ramen",
+        "category": "japanese",
+        "address": "Bucarest 49, Providencia, Región Metropolitana",
+        "evaluate": "good,pretty,cheap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6093716,
+          -33.4196955
+        ]
+      }
     }
+
   ]
 }
 
