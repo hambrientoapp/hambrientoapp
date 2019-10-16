@@ -31,7 +31,7 @@ export default function Categories() {
                         </a>
                     </Col>
                     <Col>
-                        <h2><span role='img' aria-label='taco emoji' className='menu-item'>🌮</span></h2>
+                        <h2><span role='img' aria-label='taco emoji' className='menu-item'>🇲🇽</span></h2>
                         <a href="#Mexican">
                             Mexican <Badge variant="primary">7</Badge>
                         </a>
@@ -61,7 +61,7 @@ export default function Categories() {
                         </a>
                     </Col>
 					<Col>
-                        <h2><span role='img' aria-label='Noodles With Chopsticks' className='menu-item'>🍜</span></h2>
+                        <h2><span role='img' aria-label='Noodles With Chopsticks' className='menu-item'>🇯🇵</span></h2>
                         <a href="#Japanese">
                             Japanese <Badge variant="primary">13</Badge>
                         </a>

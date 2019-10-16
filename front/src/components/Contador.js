@@ -95,7 +95,7 @@ export default function Categories() {
                         </div>
                     </Col>
 					<Col>
-                        <h2><span role='img' aria-label='Noodles With Chopsticks' className='menu-item'>🍜</span></h2>
+                        <h2><span role='img' aria-label='Noodles With Chopsticks' className='menu-item'>🇯🇵</span></h2>
                         <h5>
                             Japanese 
                         </h5>
