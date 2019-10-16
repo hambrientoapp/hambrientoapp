@@ -26,6 +26,14 @@ const checkboxes = [
         name: "Peruvian",
         value: "Peruvian"
     },
+	{
+        name: "Chilean",
+        value: "chilean"
+    },
+	{
+        name: "Japanese",
+        value: "japanese"
+    },
 ];
 
 const ReportForm = () => {
