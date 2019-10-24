@@ -66,6 +66,12 @@ export default function Categories() {
                             Japanese <Badge variant="primary">13</Badge>
                         </a>
                     </Col>					
+					<Col>
+                        <h2><span role='img' aria-label='Flag of Spain emoji' className='menu-item'>🥔</span></h2>
+                        <a href="#Spainish">
+                        Croquettes <Badge variant="primary">14</Badge>
+                        </a>
+                    </Col>					
                 </Row>
             </Container>
         </div>

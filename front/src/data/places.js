@@ -4,6 +4,22 @@ const places = {
      {
       "type": "Feature",
       "properties": {
+        "name": "Casa Labra",
+        "category": "Croquettes",
+        "address": "Calle de Tetuán, 12, 28013 Madrid, Spain",
+        "evaluate": "good,pretty,cheap, cultural food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8616863,
+          67.034556
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
         "name": "Tau's Restaurant",
         "category": "burger,mexican,pakistani",
         "address": "c-18 Saba Ave, Bukhari Commercial Area Phase 6 Defence Housing Authority, Karachi, Karachi City, Sindh 75500, Pakistan",

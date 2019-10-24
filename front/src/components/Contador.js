@@ -10,6 +10,7 @@ export default function Categories() {
     const [addPakistani, setAddP] = useState(0); 
 	const [addChile, setAddCl] = useState(0); 
 	const [addJapan, setAddJp] = useState(0); 
+	const [addSpain, setAddSp] = useState(0); 
 	
     const IncrementMexico = () =>
         setTimeout(
@@ -39,6 +40,11 @@ export default function Categories() {
 	const IncrementJp = () => 
         setTimeout(
             () => setAddJp(currentCount => currentCount + 1),
+            100
+        );
+	const IncrementSp = () => 
+        setTimeout(
+            () => setAddSp(currentCount => currentCount + 1),
             100
         );
 		
@@ -101,6 +107,15 @@ export default function Categories() {
                         </h5>
                         <div className="justify-content-md-center text-center">
                             <button className="btn btn-light" onClick={IncrementJp} aria-label="Like">👍</button><h5>{addJapan}</h5>
+                        </div>
+                    </Col>
+					<Col>
+                        <h2><span role='img' aria-label='Flag of Spain emoji' className='menu-item'>🇪🇸</span></h2>
+                        <h5>
+                            Croquettes 
+                        </h5>
+                        <div className="justify-content-md-center text-center">
+                            <button className="btn btn-light" onClick={IncrementSp} aria-label="Like">👍</button><h5>{addSpain}</h5>
                         </div>
                     </Col>
                 </Row>
