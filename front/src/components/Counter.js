@@ -15,7 +15,7 @@ export default function Categories() {
     return (
         <div id="categories">
             <Container className="mt-4 mb-4">
-                <h2 className="text-center mb-4">👍 tell us which international food you like</h2>
+                <h2 className="text-center mb-4"><span role="img" aria-label="Like emoji">👍</span> tell us which international food you like</h2>
                 <Row className="justify-content-md-center text-center">
                     <Col className="mr-5">
                         <h2>
@@ -25,7 +25,7 @@ export default function Categories() {
                             Mexican 
                         </h6>
                         <div className="justify-content-md-center text-center">
-                            <button className="btn btn-light" onClick={() => setMexican(mexican + 1)} aria-label="Like">👍 {mexican}</button>
+                            <button className="btn btn-light" onClick={() => setMexican(mexican + 1)} aria-label="Like"><span role="img" aria-label="Like emoji">👍</span> {mexican}</button>
                         </div>
                     </Col>
                     <Col className="mr-5">
@@ -34,7 +34,7 @@ export default function Categories() {
                            Venezuelan   
                         </h6>
                         <div className="justify-content-md-center text-center">
-                            <button className="btn btn-light" onClick={() => setVenezuelan(venezuelan + 1)} aria-label="Like">👍 {venezuelan}</button>
+                            <button className="btn btn-light" onClick={() => setVenezuelan(venezuelan + 1)} aria-label="Like"><span role="img" aria-label="Like emoji">👍</span> {venezuelan}</button>
                         </div>
                     </Col>
                     <Col>
@@ -43,7 +43,7 @@ export default function Categories() {
                             Peruvian 
                         </h6>
                         <div className="justify-content-md-center text-center">
-                            <button className="btn btn-light" onClick={() => setPeruvian(peruvian + 1)} aria-label="Like">👍 {peruvian}</button>
+                            <button className="btn btn-light" onClick={() => setPeruvian(peruvian + 1)} aria-label="Like"><span role="img" aria-label="Like emoji">👍</span> {peruvian}</button>
                         </div>
                     </Col>
                     <Col>
@@ -52,7 +52,7 @@ export default function Categories() {
                         Pakistani 
                         </h6>
                         <div className="justify-content-md-center text-center">
-                            <button className="btn btn-light" onClick={() => setPakistani(pakistani + 1)} aria-label="Like">👍 {pakistani}</button>
+                            <button className="btn btn-light" onClick={() => setPakistani(pakistani + 1)} aria-label="Like"><span role="img" aria-label="Like emoji">👍</span> {pakistani}</button>
                         </div>
                     </Col>
 					<Col>
@@ -61,7 +61,7 @@ export default function Categories() {
                             Chilean 
                         </h6>
                         <div className="justify-content-md-center text-center">
-                            <button className="btn btn-light" onClick={() => setChilean(chilean + 1)} aria-label="Like">👍 {chilean}</button>
+                            <button className="btn btn-light" onClick={() => setChilean(chilean + 1)} aria-label="Like"><span role="img" aria-label="Like emoji">👍</span> {chilean}</button>
                         </div>
                     </Col>
 					<Col>
@@ -70,7 +70,7 @@ export default function Categories() {
                             Japanese 
                         </h6>
                         <div className="justify-content-md-center text-center">
-                            <button className="btn btn-light" onClick={() => setJapanese(japanese + 1)} aria-label="Like">👍 {japanese}</button>
+                            <button className="btn btn-light" onClick={() => setJapanese(japanese + 1)} aria-label="Like"><span role="img" aria-label="Like emoji">👍</span> {japanese}</button>
                         </div>
                     </Col>
                     <Col>
@@ -79,7 +79,7 @@ export default function Categories() {
                             Spanish 
                         </h6>
                         <div className="justify-content-md-center text-center">
-                            <button className="btn btn-light" onClick={() => setSpanish(spanish + 1)} aria-label="Like">👍 {spanish}</button>
+                            <button className="btn btn-light" onClick={() => setSpanish(spanish + 1)} aria-label="Like"><span role="img" aria-label="Like emoji">👍</span> {spanish}</button>
                         </div>
                     </Col>
                 </Row>

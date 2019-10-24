@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import L from 'leaflet'
-import { Map as LeafletMap, TileLayer, GeoJSON, Marker, Popup } from 'react-leaflet'
-import person from '../person.png'
-import places from '../data/places.js'
+import { Map as LeafletMap, TileLayer, Marker, Popup } from 'react-leaflet'
 
 const styles = {
     wrapper: {
@@ -14,40 +12,25 @@ const styles = {
     }
 }
 
-const geojsonMarkerOptions = {
-    radius: 4,
-    fillColor: '#ee4266',
-    color: '#000',
-    weight: 0,
-    opacity: 1,
-    fillOpacity: 0.4
-}
-
-function pointToLayer(feature, latlng) {
-    return L.circleMarker(latlng, geojsonMarkerOptions)
-}
-
 export default function Places() {
     const [location, setLocation] = useState({
-        lat: -70.6511887,
-        lng: -33.4465536,
+        lng: -33.4610432,
+        lat: -70.680576,
         zoom: 16
     })
     
     let icon = L.icon({
-        iconRetinaUrl: person,
-        iconUrl: person,
-        
-   })
+        iconUrl: 'https://twemoji.maxcdn.com/v/12.1.3/72x72/1f60b.png',
+        iconSize: [36, 36],
+        iconAnchor: [18, 18]
+    })
  
- 
-
     useEffect(() => {
         if ("geolocation" in navigator) {
             navigator.geolocation.getCurrentPosition(position => {
                 setLocation({
-                    lat: position.coords.latitude,
                     lng: position.coords.longitude,
+                    lat: position.coords.latitude,
                     zoom: 16
                 })
             })
@@ -58,7 +41,7 @@ export default function Places() {
         <div id="places" style={styles.wrapper}>
             <LeafletMap
                 style={styles.map}
-                center={[location.lat, location.lng]}
+                center={[location.lng, location.lat]}
                 zoom={location.zoom}
             >
                 <TileLayer
@@ -66,17 +49,13 @@ export default function Places() {
                     url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
                 />
                 <Marker
-                   position={[location.lat, location.lng]}
+                   position={[location.lng, location.lat]}
                    icon={icon} 
                 >
                     <Popup>
                        You are here!
                     </Popup>
                 </Marker>
-                <GeoJSON
-                    data={places}
-                    pointToLayer={pointToLayer}
-                ></GeoJSON>
             </LeafletMap>
         </div>
     )
