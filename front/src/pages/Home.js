@@ -3,7 +3,7 @@ import React from 'react'
 import Search from '../components/Search'
 import Categories from '../components/Categories'
 import Places from '../components/Places'
-import Contador from '../components/Contador'
+import Counter from '../components/Counter'
 
 function Home() {
     return (
@@ -11,7 +11,7 @@ function Home() {
             <Search />
             <Categories />
             <Places />
-            <Contador />
+            <Counter />
         </main>
     )
 }

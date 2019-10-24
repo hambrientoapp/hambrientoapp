@@ -1,4 +1,4 @@
-const places = {
+export default places = {
   "type": "FeatureCollection",
   "features": [
      {
@@ -228,5 +228,3 @@ const places = {
 
   ]
 }
-
-export default places
